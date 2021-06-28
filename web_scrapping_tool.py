@@ -8,6 +8,7 @@ import requests
 import pandas as pd
 import sqlite3
 import lxml.html
+#instead of using beautifulsoup , i had used lxml.html to parse html content
 
 r = requests.get("https://www.w3schools.com/html/html_tables.asp")
 
